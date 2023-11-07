@@ -1,0 +1,27 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  input.input-error,
+  select.input-error{
+    border-color: #fc8181;
+  }
+  
+  .error {
+    color: red; 
+    font-size: 12px;
+    
+  }
+  
+  button:disabled{
+    opacity: 0.5;
+  }
+
+  /* .form-horizontal{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  } */
